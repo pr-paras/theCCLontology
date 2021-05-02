@@ -2953,81 +2953,6 @@
     "@value" : "1.0.0"
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#A_Bribe_Is_A_Night_Thing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"In Ewe, the second largest language group in Ghana, corrupt practices such as bribery, are metaphorically linked to the night (darkness). The expressions that denote engaging in corrupt practices in Ewe literally translate ‘eat the night thing’ ɖu eză nu (corruption), ‘receive the night thing’, ză nu xoxo (the act of receiving a bribe) or ‘give the night thing’, ză nu nana (the act of giving a bribe).\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "A_Bribe_Is_A_Night_Thing"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#A_Bribe_Is_A_Room_Thing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Addo metaphorically connects the Akan lexical concepts\nadanmudeɛ, ‘room thing’, and ‘kɛtɛasehyɛ ‘putting under a mat’ to the act of\ngiving or taking a bribe in politics. Addo (2002) suggests that both of the Akan\nmetaphorical expressions used to talk about bribery in Ghana imply concealment which suggests that the concept is perceived or understood as an undesirable act or practice (that one must hide doing).\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "A_Bribe_Is_A_Room_Thing"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#A_Bribe_is_Putting_Something_Under_A_Mat",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Addo metaphorically connects the Akan lexical concepts\nadanmudeɛ, ‘room thing’, and ‘kɛtɛasehyɛ ‘putting under a mat’ to the act of\ngiving or taking a bribe in politics. Addo (2002) suggests that both of the Akan\nmetaphorical expressions used to talk about bribery in Ghana imply concealment which suggests that the concept is perceived or understood as an undesirable act or practice (that one must hide doing).\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "A_Bribe_is_Putting_Something_Under_A_Mat"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#A_Social_Problem_Is_A_Disease",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The state or the party as a political institution is conceptualized as a human body subject to infections and malfunctions.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "A_Social_Problem_Is_A_Disease"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Aboriginal_English",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Dialect" ],
-  "http://purl.org/net/CCL#hasLinguisticSystem" : [ {
-    "@id" : "http://purl.org/net/CCL#English_Alphabet"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Aboriginal English"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#Abstract",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -3080,91 +3005,6 @@
     "@value" : "A class representing a set of values which classifies actions into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Akan",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Language" ],
-  "http://purl.org/net/CCL#hasLinguisticSystem" : [ {
-    "@id" : "http://purl.org/net/CCL#Twi_Alphabet"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Akan"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#containsInformationAbout" : [ {
-    "@id" : "http://purl.org/net/CCL#Launch_Of_AntiCorruption_Campaign_By_President_Xi_Jinping"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"After Xi Jinping became the President, April 19, 2013 marked the watershed moment of the campaign, when major online media outlets simultaneously launched special “hotline” webpages to solicit from the public information or\n“tips” on corrupt officials. A strident anti-corruption campaign ensued, accompanied by forceful rhetoric implemented with official documents issued by the Party Central office, especially speeches by President Xi and Secretary Wang Qishan of the CCP Central Commission for Discipline Inspection (CCDI).\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#AntiCorruption_Deeds_As_Heroic",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCategory" : [ {
-    "@id" : "http://purl.org/net/CCL#Vermin"
-  } ],
-  "http://purl.org/net/CCL#encodesCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Value_1"
-  } ],
-  "http://purl.org/net/CCL#encodesMetaphor" : [ {
-    "@id" : "http://purl.org/net/CCL#Corruption_Is_Vermin"
-  } ],
-  "http://purl.org/net/CCL#encodesSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Vermin_Causes_Harm"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Communist_Party"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Anti-corruption actions are heroic anti-vermin deeds that control power and\nremove harm"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "AntiCorruption_Deeds_As_Heroic"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Appropriateness_In_Social_Discourse_Practices",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#containsInformationAbout" : [ {
-    "@id" : "http://purl.org/net/CCL#Politeness_In_Public_Speaking"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Appropriateness in social discourse practices"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Appropriateness_In_Social_Discourse_Practices"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Social"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#ArtefactType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -3191,22 +3031,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A class representing a set of values which classifies rule assertions into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Australia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Country" ],
-  "http://www.cidoc-crm.org/cidoc-crm/P89i_contains" : [ {
-    "@id" : "http://purl.org/net/CCL#Western_Australia"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#BEL_Social",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#BeliefType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#BEL_Spiritual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#BeliefType" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Beings known to various Aboriginal groups as ‘littlefallas’,\n‘Wudachis’or  ‘black shadows’ , ‘Balyats’, etc. (Malcolm and Rochecouste (2000)) ‘Wudachis’ are small Beings in the Aboriginal worldview, who have\nvarious functions such as stealing children"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#Behaviour",
@@ -3258,51 +3082,6 @@
     "@language" : "en",
     "@value" : "A class representing a set of values which classifies cultural beliefs into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Bribery_And_Corruption_Is_Concealment_And_Rottenness",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesMetaphor" : [ {
-    "@id" : "http://purl.org/net/CCL#A_Bribe_Is_A_Night_Thing"
-  }, {
-    "@id" : "http://purl.org/net/CCL#A_Bribe_Is_A_Room_Thing"
-  }, {
-    "@id" : "http://purl.org/net/CCL#A_Bribe_is_Putting_Something_Under_A_Mat"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Social_Citizen"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Undesirable_Things_Are_Done_In_Concealment"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Bribery and corruption is concealment and rottenness"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Bribery_And_Corruption_Is_Concealment_And_Rottenness"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#CAT_Ad_Hoc",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CategoryTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#CON_Cultural",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#ContextType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#CON_Political",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#ContextType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#CON_Social",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#ContextType" ]
 }, {
   "@id" : "http://purl.org/net/CCL#Category",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -3409,93 +3188,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A class representing a set of values which classifies cultural categories into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#China",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Country" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Chinese_Belief_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The Book of Changes juxtaposes dragon and tiger as the respective symbols of power in heaven and on earth. .... On the other hand, this powerful awe-inspiring animal is depicted in history and literature as a terrifying predatory beast, which only the strongest and most courageous men are able to subdue, control, and kill.\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "A person who can subdue power must be heroic."
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Chinese_Concept_Of_Hai",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Domain" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"A  well-established source domain for social ills and threats in Chinese.\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Economic_Growth_and_Surging_Corruption_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "害 (Hai - Harm)"
-  } ],
-  "http://purl.org/net/CCL#isOfDomainType" : [ {
-    "@id" : "http://purl.org/net/CCL#DOM_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Chinese_Concept_Of_Sifeng",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Domain" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Traditional_Chinese_Philosophy_And_Medicine"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The concept of 风 feng “wind” or “draft” originates in the traditional cosmological\ntheory of the human body and health in relation to nature, conventionally referred to as traditional Chinese medicine (TCM), which is indigenous to China. The Emperor’s Inner Classic (Huangdi Neijing) regards the imbalance of natural forces such as wind, damp, and hot and cold in the microcosm of the human body as a central cause of illhealth. The factor 风 feng “wind” or “draft” in particular is considered the top trigger of a hundred diseases (Unschuld 2003). This concept is lexicalized in many Chinese terms referring to various medical conditions such as 中风 zhong-feng “stroke,” literally “hit by wind,” 风湿 feng-shi “rheumatic disease,” literally “wind damp,” 痛风 tong-feng “gout,” literally “pain from wind,” 白癜风 bai-dian-feng “vitiligo,” literally “white-spot wind.” In folk understanding of ill-health, the notion of 受风 shou-feng “exposure to\nwind” is often invoked as a trigger of illness."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "四风 (Sifeng - Four Winds)"
-  } ],
-  "http://purl.org/net/CCL#isOfDomainType" : [ {
-    "@id" : "http://purl.org/net/CCL#DOM_Medicine"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Chinese_Value_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalValue" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The Tiger is seen as an entity of worship and power, associating courage and heroism with its slaying which  taps into common human emotions such as anger and hope."
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Cherishing Courage and Bravery"
-  } ],
-  "http://purl.org/net/CCL#hasPriority" : [ {
-    "@language" : "en",
-    "@value" : "High"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#City",
@@ -3630,23 +3322,6 @@
     "@value" : "The conceptualizations developed by a cultural community. This is a cognitive structure, arising at the cultural (group) level."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Concept_Of_Democracy",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.w3.org/2004/02/skos/core#Concept" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Democracy, which has become part of modern life in Ghana, is one of the\nconcepts that are relatively new to traditional Ghanaian culture that needs to be\ncaptured through lexical innovation. We may say then that democracy (as practiced in Ghana) is motivated by western-based conceptualisations because it has western origins. Nevertheless, like many African societies, Ghanaians live in cultures that tend to elevate the common interest of society above that of any single individual, and where a person’s individuality or self-identity is immersed in the society. \n\nThe repeal of the criminal libel and seditious laws in Ghana in 2001 was interpreted as a sign of consolidating constitutional and democratic rule,\nespecially regarding freedom of speech in Ghana. The result of exercising free\nspeech in Ghana appears to have led to the politics of insult, or an increasing use of invectives, traditionally unacceptable speech norms in public/political discourses."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Concept_Of_Democracy"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Political"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#Context",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -3683,155 +3358,6 @@
     "@value" : "A class representing a set of values which classifies contexts into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Corruption_As_A_Serious_Social_Harm_Requiring_Eradication",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCategory" : [ {
-    "@id" : "http://purl.org/net/CCL#Vermin"
-  } ],
-  "http://purl.org/net/CCL#encodesMetaphor" : [ {
-    "@id" : "http://purl.org/net/CCL#A_Social_Problem_Is_A_Disease"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Corruption_Is_A_Weed"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Corruption_Is_Disease"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Corruption_Is_Vermin"
-  } ],
-  "http://purl.org/net/CCL#encodesSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Disease_Causes_Harm"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Vermin_Causes_Harm"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Weed_Causes_Harm"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Political_Institution"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Corruption is a serious social harm requiring eradication"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Recent_Economic_Growth_and_Surging_Corruption_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Corruption_As_A_Serious_Social_Harm_Requiring_Eradication"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Corruption_As_An_Undesirable_Thing",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCulturalBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_2"
-  } ],
-  "http://purl.org/net/CCL#encodesSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Undesirable_Things_Are_Done_In_Concealment"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Political_Institution"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Corruption is an undesirable thing"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Corruption_As_An_Undesirable_Thing"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Corruption_Is_A_Weed",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Weed_Causes_Harm"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Corruption is a weed"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Corruption_Is_A_Weed"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Corruption_Is_Disease",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#containsSubmetaphor" : [ {
-    "@id" : "http://purl.org/net/CCL#A_Social_Problem_Is_A_Disease"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Disease_Causes_Harm"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Corruption is Disease"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Corruption_Is_Disease"
-  } ],
-  "http://purl.org/net/CCL#hasSourceDomain" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Concept_Of_Sifeng"
-  } ],
-  "http://purl.org/net/CCL#hasUsageFrequency" : [ {
-    "@language" : "en",
-    "@value" : "Very high"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Corruption_Is_Vermin",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalMetaphor" ],
-  "http://purl.org/net/CCL#hasAssociatedCategory" : [ {
-    "@id" : "http://purl.org/net/CCL#Vermin"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedSchema" : [ {
-    "@id" : "http://purl.org/net/CCL#Vermin_Causes_Harm"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Corruption is vermin."
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#AntiCorruption_Campaign_By_The_CCP_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Corruption_Is_Vermin"
-  } ],
-  "http://purl.org/net/CCL#hasSourceDomain" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Concept_Of_Hai"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#Country",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -3844,65 +3370,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A socio-political structure encompassing a group of people"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Criticism_Or_Critique_As_A_Mark_Of_Disrespect",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCulturalBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Leader"
-  }, {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Social_Citizen"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Criticism or critique is a mark of disrespect"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Democracy_And_Freedom_Of_Speech"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Criticism_Or_Critique_As_A_Mark_Of_Disrespect"
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Appropriateness_In_Social_Discourse_Practices"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Criticism_Or_Critique_As_An_Insult",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCulturalBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Leader"
-  }, {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Social_Citizen"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Criticism or critique is an insult"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Criticism_Or_Critique_As_An_Insult"
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Appropriateness_In_Social_Discourse_Practices"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#CulturalAgreementStructure",
@@ -4323,29 +3790,6 @@
     "@value" : "This class records the details of the society and culture for which the Cultural Linguistic framework is being modeled. Place is not a mandatory property since there are nomadic cultures in the world. However, the regions involved with their movement can still be coded."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#DOM_Medicine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#DomainTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#DOM_Social",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#DomainTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Democracy_And_Freedom_Of_Speech",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The notion of freedom of speech, which is closely associated with the concept of democracy, may be loosely defined as being able to speak freely without censorship or limitation. It is recognised as a human right under Article (19) of the Universal Declaration of Human Rights (UN 1948). It is also recognised in international human rights law by the International Covenant on Civil and Political Rights (1966). In western cultures, the individual personality rights constitute the core of human rights—in their strictest sense, human rights are ‘inherent to the individuality of each person’ (Becker and Raveloson 2008). In this regard, human rights, as defined above, form the foundations of democracy.\" .....\n\n\"Thus, we may infer that while the discourse norms of western-based democracies guarantee freedom of speech, and permit open and critical evaluation of higher authority, the discourse norms of traditional political systems in Ghana require the constant need to save the face of discourse participants, and emphasise politeness and decorum, especially in public discourses (Agyekum 2004). Western-based culturally construed democracy co-exists with traditional political systems in Ghana. Thus, we may conclude the cultural conceptualisations that motivate and underpin discourse norms about democracy in western cultures appear mutually incompatible with the cultural conceptualisations that underpin discourse norms in Ghanaian traditional cultures. \""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Democracy_And_Freedom_Of_Speech"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Political"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#Dialect",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4362,20 +3806,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A flavour of a language which may be associated with some group or subset of the cultural community. There may or may not be a region(place) associated with it."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Disease_Causes_Harm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CognitiveSchema" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The experience of DISEASE is one of life and death. The prevention and treatment of disease are essential to health and survival in all human societies. DISEASE structures the experience of HARM from a somatic and medical perspective.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Disease_Causes_Harm"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#Domain",
@@ -4434,18 +3864,6 @@
     "@value" : "A class representing a set of values which classifies cultural domains into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#EN_Animal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#EN_Political",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#EN_Social",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#English_Alphabet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/terms/LinguisticSystem" ]
-}, {
   "@id" : "http://purl.org/net/CCL#Entity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4480,19 +3898,6 @@
     "@value" : "A class representing a set of values which classifies entities into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Ewe",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Language" ],
-  "http://purl.org/net/CCL#hasLinguisticSystem" : [ {
-    "@id" : "http://purl.org/net/CCL#Ewe_Alphabet"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Ewe"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ewe_Alphabet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/terms/LinguisticSystem" ]
-}, {
   "@id" : "http://purl.org/net/CCL#ExemplarType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4505,108 +3910,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A class representing a set of values which classifies cultural exemplars into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Fly",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#NonHumanPerson" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Flies have consistently qualified as a prototypical species of vermin or 害 hai\n“harm” in Chinese public health campaigns... At the psychological level of human emotion, flies evoke disgust and irritation\""
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Future",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ghana",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Country" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Traditionally, it is an offence to show disrespect to a King/Chief among all the ethnic groups in Ghana. What are considered acts of disrespect typically include criticising, disagreeing with, reprimanding or critiquing a King/Chief bluntly in public.\""
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Appropriateness_In_Social_Discourse_Practices"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_2"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"In the Akan culture, anything that needs to be concealed, i.e. that cannot be done or displayed openly for public view or scrutiny must be undesirable.\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalValue" ],
-  "http://purl.org/net/CCL#hasAssociatedBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Many people in Ghana regard their society as hierarchical—that is there is an\nessential distinction between rulers and the ruled. Chiefs, the traditional rulers, are seen as social and cultural leaders who are sanctioned holders of customary authority."
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Insult_Politics_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasPriority" : [ {
-    "@language" : "en",
-    "@value" : "High"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Ghanaian_Value_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalValue" ],
-  "http://purl.org/net/CCL#hasAssociatedBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_2"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Anything desirable and of value is not concealed but displayed openly."
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasPriority" : [ {
-    "@language" : "en",
-    "@value" : "High"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Growing_Instances_Of_Corruption_In_China",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E3_Condition_State" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The reforms that brought about liberalization and commercialization, and fueled the economic boom, also drove the surge of corruption by providing fertile soil for its rampant growth.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Growing_Instances_Of_Corruption_In_China"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#HierarchyLevel",
@@ -4705,17 +4008,6 @@
     "@value" : "A system of communication and shared expression and interpretation using sounds, symbols and expressions"
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Launch_Of_AntiCorruption_Campaign_By_President_Xi_Jinping",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E5_Event" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"In November 2012, Xi Jinping took office as the new General Secretary of the CCP, and in March 2013, he became the President of the PRC. Xi quickly gained public support, mainly through an unprecedented high-pressure anti-corruption drive. According to information published on the party website, from November 2012 to March 2015, scores of high-profile officials in the central government, the People’s Liberation Army, numerous provincial governments, as well as major state-owned companies were investigated, disciplined, and in some cases, indicteda . The toppling of highly placed party, army, and corporate leaders distinguishes Xi’s strident efforts to stem corruption from previous anti-corruption campaigns. Xi started addressing corruption in official speeches as soon as he took office as the CCP General Secretary in November 2012, at the conclusion of the high-profile corruption trial of Bo Xilai. He warned the members of the Politburo that serious corruption would doom the party and the government. Xi’s speeches set the tone for the party discourse on corruption during the subsequent anti-corruption campaign, which was officially launched in spring 2013 when Xi became the President.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Launch_Of_AntiCorruption_Campaign_By_President_Xi_Jinping"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#MembershipRule",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4789,28 +4081,6 @@
     "@value" : "A class representing a set of values which classifies cultural metaphors into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#containsInformationAbout" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_1"
-  }, {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_2"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Narration of everyday incidents in their normal lives by Western Australian Aboriginal persons"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Social"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#NonHumanPerson",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4855,9 +4125,6 @@
     "@value" : "A class representing a set of values which classifies intended outcomes into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Past",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
   "@id" : "http://purl.org/net/CCL#Physical",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4872,32 +4139,6 @@
     "@value" : "Entities in the Physical wrold/reality"
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Politeness_In_Public_Speaking",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SocialPractice" ],
-  "http://purl.org/net/CCL#containsEvent" : [ {
-    "@id" : "http://purl.org/net/CCL#Speaking_Event_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Even though there are fine differences in some of the socio-cultural practices\nof the various indigenous ethnic groups in Ghana, the general common code of\nsocial conduct among all the cultures of Ghana includes showing politeness, respect and dignity in public settings."
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Insult_Politics_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Politeness_In_Public_Speaking"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Present",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#EntityType" ]
-}, {
   "@id" : "http://purl.org/net/CCL#Province",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -4910,132 +4151,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "Some well-dfined sub-division of a country, usually divided for administrative and political purposes"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Public_Ceremony_Event_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E5_Event" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Recurring instances of display of cherished things in Ghanian Public ceremonies"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Public_Ceremony_Event_1"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Public_Discourse_Norm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalNorm" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedSocialPractice" : [ {
-    "@id" : "http://purl.org/net/CCL#Politeness_In_Public_Speaking"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The cultural norm of public discourse in Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Insult_Politics_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Public_Discourse_Norm"
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Appropriateness_In_Social_Discourse_Practices"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Public_Display_In_Ceremonies",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SocialPractice" ],
-  "http://purl.org/net/CCL#containsEvent" : [ {
-    "@id" : "http://purl.org/net/CCL#Public_Ceremony_Event_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_2"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "In Akan culture, anything desirable, for example, a new born baby, a new bride, a young adult who successfully goes through puberty rites, is openly displayed (typically on a mat) for public viewing and admiration."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Public_Discourse_Norm"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Recent_Economic_Growth_and_Surging_Corruption_In_China",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#containsInformationAbout" : [ {
-    "@id" : "http://purl.org/net/CCL#Growing_Instances_Of_Corruption_In_China"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"During the transition from a planned economy to a market economy in the last three decades, C hina has experienced what many scholars call an “economic miracle.” At the same time, Chinese society is faced with “an extraordinary and serious epidemic of corruption”.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Recent_Economic_Growth_and_Surging_Corruption_In_China"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Addo (2002) provides a detailed analysis of a number of lexical items in Akan,\nthe largest language group in Ghana, that have emerged through metaphorical\nextension to denote a number of concepts that are related to modern governance, particularly democracy, in Ghana. She also discusses the cultural basis of these lexical innovations. For instance, she describes how the Akan lexical concept prɔɛ, ‘the rotten’, which basically describes decay in perishable goods, usually pertaining to agro-products, has been metaphtonymically extended to describe moral decay in politics, corruption.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@value" : "Bribery And Corruption As An Aspect Of Modern Democracy In Ghana"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Recent_Insult_Politics_In_Ghana",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/net/CCL#containsInformationAbout" : [ {
-    "@id" : "http://purl.org/net/CCL#Concept_Of_Democracy"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasCurrentSocialRelevance" : [ {
-    "@language" : "en",
-    "@value" : "High"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Insult Politics and use of unacceptable speech in public"
-  }, {
-    "@language" : "en",
-    "@value" : "The result of exercising free speech in Ghana appears to have led to the politics of insult, or an increasing use of invectives, traditionally unacceptable speech norms in public/political discourses."
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Political"
-  } ],
-  "http://purl.org/net/CCL#isSummarizedAs" : [ {
-    "@language" : "en",
-    "@value" : "The association between democracy and freedom of speech within the Ghanian Society"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#Region",
@@ -5083,18 +4198,6 @@
     "@value" : "A class representing a set of values which classifies rules into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#SCH_Political",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SchemaTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#SCH_Social",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SchemaTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#SCH_Spiritual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SchemaTypeCultural" ]
-}, {
-  "@id" : "http://purl.org/net/CCL#SYM_Mythological",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#SymbolType" ]
-}, {
   "@id" : "http://purl.org/net/CCL#Schema",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5137,9 +4240,6 @@
     "@value" : "A class representing a set of values which classifies cultural schemas into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Simplified_Chinese_Characters",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/terms/LinguisticSystem" ]
-}, {
   "@id" : "http://purl.org/net/CCL#SocialPractice",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5164,68 +4264,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A practice which even if not unique, is distinct to the culture. It has some attached cultural value to it. A social practice may be even to do 'nothing' in some given context."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Society_Above_Individual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesSocialPractice" : [ {
-    "@id" : "http://purl.org/net/CCL#Politeness_In_Public_Speaking"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Social_Citizen"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The concept of freedom of speech is inherently contradictory to the foundations of traditional societies in Ghana where the common good of society is elevated above that of any single individual, and where each person’s individuality or self-identity is immersed in the society"
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Democracy_And_Freedom_Of_Speech"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Recent_Insult_Politics_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Common good of the society before the individual and self-identity"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Speaking_Event_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E5_Event" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Recurring instances of polite speech in Ghanian social discourse"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Speaking_Event_1"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Standard_Chinese",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Language" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "There are several hundred languages in China. The predominant language is Standard Chinese, which is based on central Mandarin, but there are hundreds of related Chinese languages, collectively known as Hanyu.\n\nStandard Chinese, known in China as Putonghua, based on the Mandarin dialect of Beijing, is the official national spoken language for the mainland and serves as a lingua franca within the Mandarin-speaking regions."
-  } ],
-  "http://purl.org/net/CCL#hasLinguisticSystem" : [ {
-    "@id" : "http://purl.org/net/CCL#Simplified_Chinese_Characters"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Standard Beijing Mandarin"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#SubDomain",
@@ -5281,189 +4319,6 @@
     "@value" : "An entity existing primarily in terms of time"
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#The_Australian_Aboriginal_Worldview",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"A worldview with its distinctive account of land, animals and\npeople, as well as Aboriginal morals, law and cultural values...\n\nThe Aboriginal worldview reveals knowledge about how the land came to be shaped and inhabited. During a process referred to as ‘the Dreamtime’, the Spirit Ancestors moved across a barren land, hunting,camping, fighting and loving, and in doing so shaped what had been a featureless landscape. These Ancestors made the plants, animals and human beings, which,in turn, were capable of shape-shifting, taking on the shape of the other. The Ancestors\nare still present and always will be.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "The_Australian_Aboriginal_Worldview"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Cultural"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Chinese_Communist_Party",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Organization" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "A political party in China"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "The_Chinese_Communist_Party"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Chinese_Culture",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CultureDescriptor" ],
-  "http://purl.org/net/CCL#hasAssociatedBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Belief_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedLanguage" : [ {
-    "@id" : "http://purl.org/net/CCL#Standard_Chinese"
-  } ],
-  "http://purl.org/net/CCL#hasRelevanceInTimePeriod" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Current_Time"
-  } ],
-  "http://purl.org/net/CCL#isAssociatedWithPlace" : [ {
-    "@id" : "http://purl.org/net/CCL#China"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Chinese_Political_Institution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Organization" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Current_Time",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E4_Period" ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#Present"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CultureDescriptor" ],
-  "http://purl.org/net/CCL#hasAssociatedBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedLanguage" : [ {
-    "@id" : "http://purl.org/net/CCL#Akan"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Ewe"
-  } ],
-  "http://purl.org/net/CCL#hasRelevanceInTimePeriod" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Current_Time"
-  } ],
-  "http://purl.org/net/CCL#isAssociatedWithPlace" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghana"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Ghanaian_Leader",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E21_Person" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Ghanaian_Political_Institution",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://xmlns.com/foaf/0.1/Organization" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Political"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Ghanaian_Social_Citizen",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E21_Person" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Social"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Scary_Things_Schema",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCulturalBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_1"
-  }, {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_2"
-  } ],
-  "http://purl.org/net/CCL#encodesCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Western_Australian_Aboriginal_Community"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedLinguisticExpression" : [ {
-    "@language" : "en",
-    "@value" : "Excerpt from actual discourse: \n\n\"She was stayin at her uncle’s an ’e woke up one night and something was cooking obviously but it wasn’t anyone, it was a spirit, yeah, musta been someone that lived there before and ah well back in the old days they say travelling spirit travelling through the house. .... so the spirit just cos he tryin to go – hopefully he’s just pass through and to the next resting spot wherever it’s gonna go before it gets to its destination. By the cooking smelling that’s just a, it wasn’t cooking it’s just a scent you that sorta pick up for travelling spirits\""
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The Scary Things Schema"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "The_Scary_Things_Schema"
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Australian_Aboriginal_Worldview"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://purl.org/net/CCL#hasAssociatedBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_1"
-  }, {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_2"
-  }, {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_3"
-  }, {
-    "@id" : "http://purl.org/net/CCL#WAA_Belief_4"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedLanguage" : [ {
-    "@id" : "http://purl.org/net/CCL#Aboriginal_English"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"Yamatji and Nyungar cultural subgroups\""
-  } ],
-  "http://purl.org/net/CCL#hasRelevanceInTimePeriod" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Current_Time"
-  } ],
-  "http://purl.org/net/CCL#isAssociatedWithPlace" : [ {
-    "@id" : "http://purl.org/net/CCL#Western_Australia"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#The_Western_Australian_Aboriginal_Community",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.cidoc-crm.org/cidoc-crm/E74_Group" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#Thing",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5476,60 +4331,6 @@
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "en",
     "@value" : "A thing is meant to represent an object - natural or man-made and usually considered to be inanimate, but there may be exceptions to this such as trees."
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Tiger",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSymbol", "http://purl.org/net/CCL#NonHumanPerson" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#Chinese_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#Tiger"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"In ancient China, tigers are conceptualized as a beast of hai that threatens human life.\""
-  } ],
-  "http://purl.org/net/CCL#hasSymbolism" : [ {
-    "@language" : "en",
-    "@value" : "\"The tiger has a special place in Chinese cultural history and collective unconscious. It symbolizes at once the powerful and the scary. The earliest Chinese dictionary Shuowen Jiezi describes it as “king of mountain beasts.” The Book of Changes juxtaposes dragon and tiger as the respective symbols of power in heaven and on earth. The ancient worship of dragon and tiger leaves its footprint in Chinese lexicon, and dragon-tiger idioms such as 生龙活虎 shenglong huohu “full of vim and vigor,” literally “living dragon, living\ntiger,” and 藏龙卧虎 canglong wohu “hidden talents,” literally “hidden dragon, crouching tiger,” are still an active part of the ordinary lexicon.\""
-  } ],
-  "http://purl.org/net/CCL#isOfEntityType" : [ {
-    "@id" : "http://purl.org/net/CCL#EN_Animal"
-  } ],
-  "http://purl.org/net/CCL#isOfSymbolType" : [ {
-    "@id" : "http://purl.org/net/CCL#SYM_Mythological"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Traditional_Chinese_Philosophy_And_Medicine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Context" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Traditional Chinese Philosophy And Medicine"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Traditional_Chinese_Philosophy_And_Medicine"
-  } ],
-  "http://purl.org/net/CCL#isOfContextType" : [ {
-    "@id" : "http://purl.org/net/CCL#CON_Cultural"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Twi_Alphabet",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/dc/terms/LinguisticSystem" ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Writing system of the Ghanian language Akan"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Twi"
   } ]
 }, {
   "@id" : "http://purl.org/net/CCL#Type",
@@ -5546,32 +4347,6 @@
     "@value" : "A category which delineates things with a certain attribute from others within the same class. The types for the sub-classes are not some range of fixed values but are decided based on context, necessity and the persons/applications using the ontology."
   } ]
 }, {
-  "@id" : "http://purl.org/net/CCL#Undesirable_Things_Are_Done_In_Concealment",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalSchema" ],
-  "http://purl.org/net/CCL#encodesCulturalBelief" : [ {
-    "@id" : "http://purl.org/net/CCL#Ghanaian_Belief_2"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Ghanaian_Political_Institution"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The expressions that denote engaging in corrupt practices in Ewe literally\ntranslate ‘eat the night thing’ ɖu eză nu (corruption), ‘receive the night thing’,\nză nu xoxo (the act of receiving a bribe) or ‘give the night thing’, ză nu nana (the act of giving a bribe). These conceptualisations are similar to the Akan conceptualisation of bribery in that they both involve the idea of concealment and covering up.\""
-  } ],
-  "http://purl.org/net/CCL#hasImmediateCulturalContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Recent_Instances_Of_Bribery_And_Corruption_In_Ghana"
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Undesirable things are done in concealment"
-  } ],
-  "http://purl.org/net/CCL#isOfSchemaType" : [ {
-    "@id" : "http://purl.org/net/CCL#SCH_Social"
-  } ]
-}, {
   "@id" : "http://purl.org/net/CCL#ValueType",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
@@ -5585,163 +4360,6 @@
     "@language" : "en",
     "@value" : "A class representing a set of values which classifies cultural values into certain categories. The type values varies based on application and should be assigned by the application or user coding information into the ontology."
   } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Vermin",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalCategory" ],
-  "http://purl.org/net/CCL#hasAssociatedEntity" : [ {
-    "@id" : "http://purl.org/net/CCL#Fly"
-  }, {
-    "@id" : "http://purl.org/net/CCL#Tiger"
-  } ],
-  "http://purl.org/net/CCL#hasPrototype" : [ {
-    "@id" : "http://purl.org/net/CCL#Fly"
-  } ],
-  "http://purl.org/net/CCL#isOfCategoryType" : [ {
-    "@id" : "http://purl.org/net/CCL#CAT_Ad_Hoc"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Vermin_Causes_Harm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CognitiveSchema" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The concept of VERMIN designates “mutually inclusive categories open to any animal that is perceived to be annoying, disruptive, or unwanted” by humans, as defined in the words of Holm. This concept crystalizes the constant human struggle to manage threats in the environment in order to protect health, habitats, crops, livestock, and game. Because VERMIN refers to animals “which must be destroyed, lest they destroy us,” to use the words of Dion and Rockman, it signifies elements harmful and threatening to human survival and well-being.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Vermin_Causes_Harm"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#WAA_Belief_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "The belief in the existence of supernatural beings and \"The belief that strange powers or persons affect normal life within the\ncommunity\"."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@value" : "Spiritual phenomena in normal life"
-  } ],
-  "http://purl.org/net/CCL#hasPriorContext" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Australian_Aboriginal_Worldview"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#WAA_Belief_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"People may encounter the spirits of people who previously lived and died in a place or even visiting spirits who may stop over on their journey.\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Travelling Spirits"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#WAA_Belief_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Australian_Aboriginal_Worldview"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"With regard to creation, Aboriginal worldview maintains that Creative Ancestors\n(also known as Ancestor Spirits) emerged from the earth and created everything\n including the land, animals, plants, and the people, on their journeys during The\nDreamtime . The Ancestors completed their journeys and turned into features of the environments including animals, plants and even stones. “The Dreamtime continues as the “Dreaming” in the spiritual lives of Aboriginal people today”\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Belief in Ancestor Spirits"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#WAA_Belief_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalBelief" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalValue" : [ {
-    "@id" : "http://purl.org/net/CCL#WAA_Value_1"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "An Aboriginal belief according to which people\nwho have died may pay a visit to their family or to places where they once lived."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Return of the Ancestors or Deceased people"
-  } ],
-  "http://purl.org/net/CCL#isOfBeliefType" : [ {
-    "@id" : "http://purl.org/net/CCL#BEL_Spiritual"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#WAA_Value_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CulturalValue" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_West_Australian_Aboriginal_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasContext" : [ {
-    "@id" : "http://purl.org/net/CCL#Narration_Of_A_Routine_Incident_By_An_Aboriginal_Person"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "Spiritual beings have a significant impact on normal life and therefore must be respected and/or appeased and in other cases, fought, chased away."
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Spiritual Beings must be recognized"
-  } ],
-  "http://purl.org/net/CCL#hasPriority" : [ {
-    "@language" : "en",
-    "@value" : "Very High"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Weed_Causes_Harm",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#CognitiveSchema" ],
-  "http://purl.org/net/CCL#hasAssociatedCulturalDescriptor" : [ {
-    "@id" : "http://purl.org/net/CCL#The_Chinese_Culture"
-  } ],
-  "http://purl.org/net/CCL#hasDescription" : [ {
-    "@language" : "en",
-    "@value" : "\"The idea of WEED is as old as the origin of agriculture because weed control is\nessential to crop yield and food supply\""
-  } ],
-  "http://purl.org/net/CCL#hasName" : [ {
-    "@language" : "en",
-    "@value" : "Weed Causes Harm"
-  } ]
-}, {
-  "@id" : "http://purl.org/net/CCL#Western_Australia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/net/CCL#Region" ]
 }, {
   "@id" : "http://purl.org/net/CCL#baseRelationContainsBelief",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
