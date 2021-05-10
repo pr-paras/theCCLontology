@@ -2214,10 +2214,6 @@ This class serves to identify a hierarchy."""@en .
 :CulturalArtefact rdf:type owl:Class ;
                   owl:equivalentClass [ owl:intersectionOf ( :CulturalEntity
                                                              [ rdf:type owl:Restriction ;
-                                                               owl:onProperty :hasAssociatedEntity ;
-                                                               owl:someValuesFrom :CulturalEntity
-                                                             ]
-                                                             [ rdf:type owl:Restriction ;
                                                                owl:onProperty :isOfArtefactType ;
                                                                owl:someValuesFrom :ArtefactType
                                                              ]

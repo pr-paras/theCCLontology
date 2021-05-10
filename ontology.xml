@@ -3277,10 +3277,6 @@ This class serves to identify a hierarchy.</skos:definition>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.org/net/CCL#CulturalEntity"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedEntity"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalEntity"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.org/net/CCL#isOfArtefactType"/>
                         <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#ArtefactType"/>
                     </owl:Restriction>
