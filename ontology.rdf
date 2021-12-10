@@ -4855,12 +4855,6 @@ Ordering on subparameters can be created by using or specializing the object pro
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Linguistic System</rdfs:label>
         <skos:definition xml:lang="en">dcterms:Description &quot;Written, spoken, sign, and computer languages are linguistic systems.&quot;</skos:definition>
     </owl:Class>
@@ -4897,74 +4891,8 @@ Ordering on subparameters can be created by using or specializing the object pro
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Metaphor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsMetonym"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsSubmetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Metaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedMetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Metaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasPreConceptualization"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CollectiveCognitionStructure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isAMetaphorEncodedIn"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#makesReferenceToPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/CCL#baseRelationContainsBelief"/>
                 <owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasGeneralConnotation"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasIntendedMeaning"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Atomic Metaphor</rdfs:label>
@@ -4978,54 +4906,6 @@ Ordering on subparameters can be created by using or specializing the object pro
 
     <owl:Class rdf:about="http://purl.org/net/CCL#AtomicSchema">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Schema"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsIdeaInSchema"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsIdeaInTheme"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedLinguisticExpression"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasRelationshipBetweenThemeEntities"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasTheme"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Atomic Schema</rdfs:label>
         <skos:definition xml:lang="en">A basic type of collective cognition structure which encodes situations, rules, norms, behaviours etc.</skos:definition>
     </owl:Class>
@@ -5047,48 +4927,6 @@ Ordering on subparameters can be created by using or specializing the object pro
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedAction"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedRule"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Rule"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasIntendedOutcome"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasBehaviourQuality"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasExpectedComponent"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasPerceivedComponent"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Behaviour</rdfs:label>
@@ -5136,12 +4974,6 @@ Ordering on subparameters can be created by using or specializing the object pro
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CollectiveCognitionStructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Category</rdfs:label>
         <skos:definition xml:lang="en">A set of classification criteria to classify entities/situations and other structures encoded as a mental structure.
 
@@ -5165,12 +4997,6 @@ In general, categories are how one groups together various entities.</skos:defin
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#membershipRuleHasWeightage"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Category Membership Rule</rdfs:label>
         <skos:definition xml:lang="en">A rule deciding membership in some set/category</skos:definition>
     </owl:Class>
@@ -5193,48 +5019,6 @@ In general, categories are how one groups together various entities.</skos:defin
 
     <owl:Class rdf:about="http://purl.org/net/CCL#CognitiveCategory">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Category"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSubCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isACategoryEncodedIn"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedLinguisticExpression"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Atomic Category</rdfs:label>
         <skos:definition xml:lang="en">A set of classification criteria to classify entities/situations and other structures encoded as a mental structure</skos:definition>
     </owl:Class>
@@ -5252,12 +5036,6 @@ In general, categories are how one groups together various entities.</skos:defin
                 <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#CultureIdentifier"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Collective Cognition Structure</rdfs:label>
         <skos:definition xml:lang="en">The conceptualizations developed by a cultural community. This is a cognitive structure, arising at the cultural (group) level.</skos:definition>
     </owl:Class>
@@ -5269,54 +5047,6 @@ In general, categories are how one groups together various entities.</skos:defin
 
     <owl:Class rdf:about="http://purl.org/net/CCL#ComplexCategory">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Category"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasImmediateCulturalContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSubCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isACategoryEncodedIn"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedLinguisticExpression"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Complex Category</rdfs:label>
         <skos:definition xml:lang="en">A set of classification criteria to classify entities/situations and other structures encoded as a mental structure</skos:definition>
     </owl:Class>
@@ -5334,132 +5064,6 @@ In general, categories are how one groups together various entities.</skos:defin
                 <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsMetonym"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsSubmetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Metaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Category"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalAgreementStructure"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedMetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Metaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasImmediateCulturalContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasPreConceptualization"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CollectiveCognitionStructure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasRelevanceInTimePeriod"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isAMetaphorEncodedIn"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#makesReferenceToPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#baseRelationContainsBelief"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedLinguisticExpression"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCauseOfOrigination"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCulturalRelevanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasGeneralConnotation"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasIntendedMeaning"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasOriginOfExpressionUsed"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasOriginOfIntendedMeaning"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasUsageFrequency"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Complex Metaphor</rdfs:label>
         <skos:definition xml:lang="en">A metaphor within the culture with distinctly cultural components such as the domain used within the expression or the expression itself such as Death as a journey to Heaven</skos:definition>
     </owl:Class>
@@ -5471,72 +5075,6 @@ In general, categories are how one groups together various entities.</skos:defin
 
     <owl:Class rdf:about="http://purl.org/net/CCL#ComplexSchema">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Schema"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#encodesSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Schema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasImmediateCulturalContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsIdeaInSchema"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#containsIdeaInTheme"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedLinguisticExpression"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasOrigin"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasRelationshipBetweenThemeEntities"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasTheme"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Complex Schema</rdfs:label>
         <skos:definition xml:lang="en">Collection of various schemas, categories and associated metaphors</skos:definition>
     </owl:Class>
@@ -5566,24 +5104,6 @@ In general, categories are how one groups together various entities.</skos:defin
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCultureIdentifier"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CultureIdentifier"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSocialRelevance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isSummarizedAs"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Context</rdfs:label>
         <skos:definition xml:lang="en">An encoded frame of reference for understanding situations/behaviour/actions/language. This can be current or prior context. Prior context is context of which one has knowledge through experience or learning or simply by being exposed to it sometime in the past.</skos:definition>
     </owl:Class>
@@ -5622,102 +5142,6 @@ In general, categories are how one groups together various entities.</skos:defin
 
     <owl:Class rdf:about="http://purl.org/net/CCL#CulturalArtefact">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CulturalEntity"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexCategory"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexMetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexMetaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexSchema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalValue"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalValue"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSymbol"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalSymbol"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSignificanceInTimePeriod"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSignificanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasQuality"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isOfArtefactCategory"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Artefact</rdfs:label>
         <skos:definition xml:lang="en">A cultural artefact is an artefact which is produced and mediated by cultural agents i.e. it is a product of culture.</skos:definition>
     </owl:Class>
@@ -5729,30 +5153,6 @@ In general, categories are how one groups together various entities.</skos:defin
 
     <owl:Class rdf:about="http://purl.org/net/CCL#CulturalBelief">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalValue"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalValue"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasOrigin"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isSummarizedAs"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Belief</rdfs:label>
         <skos:definition xml:lang="en">A belief in relation to religion/philosophy/social rules and behaviour, for insance, held by the cultural community</skos:definition>
     </owl:Class>
@@ -5816,72 +5216,6 @@ In general, categories are how one groups together various entities.</skos:defin
                 <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalValue"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexCategory"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexMetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexMetaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexSchema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSignificanceInTimePeriod"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasExemplarName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasQuality"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Exemplar</rdfs:label>
         <skos:definition xml:lang="en">An exemplar is of great significance  and is somehow distinctly representative of the culture both within and outside it. It is usually  the abstract idea of an entity usually a person displaying certain characteristics, may or may not be well-known persons. In case of an abstract idea of a person, the entity should accordingly be assigned as an abstract one.</skos:definition>
     </owl:Class>
@@ -5925,24 +5259,6 @@ In general, categories are how one groups together various entities.</skos:defin
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedBehaviour"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Behaviour"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedRule"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Rule"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Norm</rdfs:label>
         <skos:definition xml:lang="en">Cultural norms are share, agreedupon beliefs and practices shared by the cultural community. 
 
@@ -5966,96 +5282,12 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CulturalEntity"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#MythologicalSymbol"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalValue"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalValue"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexCategory"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexCategory"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexMetaphor"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexMetaphor"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedComplexSchema"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#ComplexSchema"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedExemplar"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalExemplar"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSignificanceInTimePeriod"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCurrentSignificanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasHistoricalSignificanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasQuality"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Symbol</rdfs:label>
@@ -6092,18 +5324,6 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isSummarizedAs"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cultural Value</rdfs:label>
         <skos:definition xml:lang="en">Values are core ideas which stem from the beliefs underlying them and manifest within the practices of a cultural group.
 
@@ -6141,24 +5361,6 @@ The generic Description field is mandatory for this class since it will be used 
                 <owl:someValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CollectiveAgent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalAgreementStructure"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Culture Identifier</rdfs:label>
         <skos:definition xml:lang="en">This class records the details of the society and culture for which the Cultural Linguistic framework is being modeled. Place is not a mandatory property since there are nomadic cultures in the world. However, the regions involved with their movement can still be coded. This is an information calss. 
 
@@ -6172,18 +5374,6 @@ The class name takes inspiration from the term &apos;File descriptor&apos; in co
 
     <owl:Class rdf:about="http://purl.org/net/CCL#Dialect">
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#Language"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedSocialObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CollectiveAgent"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isAssociatedWithPlace"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Dialect</rdfs:label>
         <skos:definition xml:lang="en">A flavour of a language which may be associated with some group or subset of the cultural community. There may or may not be a region(place) associated with it.</skos:definition>
     </owl:Class>
@@ -6195,54 +5385,6 @@ The class name takes inspiration from the term &apos;File descriptor&apos; in co
 
     <owl:Class rdf:about="http://purl.org/net/CCL#Domain">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedEvent"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedPhysicalObject"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCultureIdentifier"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CultureIdentifier"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSignificance"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasSignificanceWeight"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Domain</rdfs:label>
         <skos:definition xml:lang="en">A domain is a constrained subset of a larger body of knowledge. A domain can contain its own sub-domains and sub-domains are domains in their own right. When different aspects of a domain are seleted for encoding, they should be coded in the form of sub-domain individuals. 
 
@@ -6289,12 +5431,6 @@ In this ontology, a domain doesn&apos;t have a significance by itself. It may ho
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#SocioCulturalStructure"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Language</rdfs:label>
         <skos:definition xml:lang="en">A system of communication and shared expression and interpretation using sounds, symbols and expressions</skos:definition>
     </owl:Class>
@@ -6469,12 +5605,6 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology.</rdfs:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isOfAssertionType"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Rule</rdfs:label>
         <skos:definition xml:lang="en">A combination of initial conditions which when satisfied render some target state valid</skos:definition>
     </owl:Class>
@@ -6592,24 +5722,6 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology.</rdfs:
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedBehaviour"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Behaviour"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasIntendedOutcome"/>
-                <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Social Practice</rdfs:label>
         <skos:definition xml:lang="en">A practice which even if not unique, is distinct to the culture. It has some attached cultural value to it. A social practice may be even to do &apos;nothing&apos; in some given context.</skos:definition>
     </owl:Class>
@@ -6621,12 +5733,6 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology.</rdfs:
 
     <owl:Class rdf:about="http://purl.org/net/CCL#SocioCulturalStructure">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Socio Cultural Structure</rdfs:label>
         <skos:definition xml:lang="en">Any entity arising in and out of cultural activity</skos:definition>
     </owl:Class>
@@ -6649,30 +5755,6 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology.</rdfs:
 
     <owl:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E53_Place">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P121_overlaps_with"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P122_borders_with"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P89_falls_within"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P89i_contains"/>
-                <owl:allValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Place</rdfs:label>
         <rdfs:seeAlso xml:lang="en">(From CRM) - This class comprises extents in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter. 
 The instances of E53 Place are usually determined by reference to the position of “immobile” objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. It may be identified by one or more instances of E44 Place Appellation.
@@ -6713,26 +5795,8 @@ Any object can serve as a frame of reference for E53 Place determination. The mo
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasContext"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Context"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask"/>
                 <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasActionQuality"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>An Event with at least one Agent that isParticipantIn it, and that executes a Task that typically isDefinedIn a Plan, Workflow, Project, etc.</rdfs:comment>
@@ -6940,7 +6004,6 @@ The classifies relation relates Concept(s) to Entity(s) at some TimeInterval</rd
         <rdfs:label xml:lang="en">Concept</rdfs:label>
         <rdfs:label xml:lang="it">Concetto</rdfs:label>
         <rdfs:seeAlso xml:lang="en">https://www.w3.org/TR/skos-reference/#concepts</rdfs:seeAlso>
-        <skos:definition xml:lang="en">A concept is an abstract representation of a thing as it is understood.</skos:definition>
     </owl:Class>
     
 
@@ -7054,18 +6117,6 @@ While designs typically describe entities to be constructed, they can also be us
 
 
     <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity">
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasEntityName"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <rdfs:label xml:lang="en">Entity</rdfs:label>
@@ -7103,12 +6154,6 @@ While designs typically describe entities to be constructed, they can also be us
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
                 <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasRecurringSchedule"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <owl:disjointWith rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
@@ -7276,37 +6321,6 @@ The second notion is social, localized in space-time (&apos;social semantics&apo
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedBehaviour"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Behaviour"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedCulturalAgreementStructure"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CulturalAgreementStructure"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasAssociatedRule"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#Rule"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasDescription"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#isOfOutcomeType"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">From DOLCE: The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it</rdfs:comment>
         <rdfs:comment>The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <rdfs:label xml:lang="en">Goal</rdfs:label>
@@ -7563,12 +6577,6 @@ It cannot be defined by means of an equivalence axiom, because it&apos;d require
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/gender"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">(DOLCE) - A physical objects with biological characteristics, typically that organisms can self-reproduce.</rdfs:comment>
         <rdfs:comment>A physical objects with biological characteristics, typically that organisms can self-reproduce.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
@@ -7670,12 +6678,6 @@ An occurrence of a pattern is an &apos;observable&apos;, or detected Situation</
 
     <owl:Class rdf:about="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://xmlns.com/foaf/0.1/gender"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:comment>Persons in commonsense intuition, which does not apparently distinguish between either natural or social persons.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl"/>
         <rdfs:label xml:lang="en">Person</rdfs:label>
@@ -7723,10 +6725,6 @@ A PhysicalAgent is a substrate for (actsFor) a Social Agent</rdfs:comment>
                 <owl:someValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">(DOLCE) - Any PhysicalObject that isDescribedBy a Plan .
-This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
-FunctionalSubstance(s) are included here as well.
-Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corporations, communities, etc. can be modelled as social objects (see SocialObject), which are all &apos;artifactual&apos; in the weak sense assumed here.</rdfs:comment>
         <rdfs:comment>Any PhysicalObject that isDescribedBy a Plan .
 This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
 FunctionalSubstance(s) are included here as well.
@@ -7779,12 +6777,6 @@ Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corp
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/net/CCL#hasCultureIdentifier"/>
-                <owl:allValuesFrom rdf:resource="http://purl.org/net/CCL#CultureIdentifier"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart"/>
                 <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject"/>
             </owl:Restriction>
@@ -7795,7 +6787,6 @@ Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corp
         <rdfs:label xml:lang="it">Oggetto fisico</rdfs:label>
         <rdfs:label xml:lang="en">Physical Object</rdfs:label>
         <rdfs:label xml:lang="en">Physical object</rdfs:label>
-        <skos:definition xml:lang="en">Any Object that has a proper space region. The prototypical physical object has also an associated mass, but the nature of its mass can greatly vary based on the epistemological status of the object (scientifically measured, subjectively possible, imaginary).</skos:definition>
     </owl:Class>
     
 
@@ -8134,9 +7125,6 @@ If used in a transformation pattern for n-ary relations, the designer should tak
                 <owl:allValuesFrom rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">(DOLCE) - Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
-In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing existing entities (Situation), for collecting existing entities (Collection), or for describing existing entities (Description, Concept).
-Being dependent on communication, all social objects need to be expressed by some information object (information object are self-expressing).</rdfs:comment>
         <rdfs:comment>Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
 In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing or intepreting existing entities (Description, Concept), or for collecting existing entities (Collection).
 Being dependent on communication, all social objects need to be expressed by some information object (information objects are self-expressing).</rdfs:comment>

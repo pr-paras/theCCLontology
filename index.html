@@ -6,7 +6,7 @@
 
 
 <!-- SCHEMA.ORG METADATA -->
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://purl.org/net/CCL","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://purl.org/net/CCL","name":"http://purl.org/net/CCL", "headline":"The Cognition, Culture & Language (CCL) ontology is based on the analytical framework of Cultural Linguistics developed by Professor Farzad Sharifian. CCL is a content ontology, which models the various aspects of culture as it is experienced within human cognition.The purpose of the CCL ontology is to model the domain of Cultural conceptualizations in general and the analytical framework of Cultural Linguistics, in particular. The ontology is intended to  provide users a conceptual schema where their research findings can be documented. The ontology will also enable establishing linkage between documented information, leading to the discovery of new relationships made possible by reasoning.", "datePublished":"Fri Dec 10 05:04:52 EST 2021", "version":"2.0.0", "license":"http://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Poornima S P Ravishankar"}], "contributor":[{"@type":"Person","name":"Ilianna S. Kollia"}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","url":"http://purl.org/net/CCL","image":"http://vowl.visualdataweb.org/webvowl/#iri=http://purl.org/net/CCL","name":"http://purl.org/net/CCL", "headline":"The Cognition, Culture & Language (CCL) ontology is based on the analytical framework of Cultural Linguistics developed by Professor Farzad Sharifian. CCL is a content ontology, which models the various aspects of culture as it is experienced within human cognition.The purpose of the CCL ontology is to model the domain of Cultural conceptualizations in general and the analytical framework of Cultural Linguistics, in particular. The ontology is intended to  provide users a conceptual schema where their research findings can be documented. The ontology will also enable establishing linkage between documented information, leading to the discovery of new relationships made possible by reasoning.", "datePublished":"Fri Dec 10 11:46:59 EST 2021", "version":"2.0.0", "license":"http://creativecommons.org/licenses/by/4.0/", "author":[{"@type":"Person","name":"Poornima S P Ravishankar"}], "contributor":[{"@type":"Person","name":"Ilianna S. Kollia"}]}</script>
 
 <script src="resources/jquery.js"></script> 
 <script src="resources/marked.min.js"></script> 
@@ -86,15 +86,7 @@ $(function(){
 </div>     <div id="abstract"><h2>Abstract</h2><span class="markdown">
 The Cognition, Culture & Language (CCL) ontology is based on the analytical framework of Cultural Linguistics developed by Professor Farzad Sharifian. CCL is a content ontology, which models the various aspects of culture as it is experienced within human cognition.The purpose of the CCL ontology is to model the domain of Cultural conceptualizations in general and the analytical framework of Cultural Linguistics, in particular. The ontology is intended to  provide users a conceptual schema where their research findings can be documented. The ontology will also enable establishing linkage between documented information, leading to the discovery of new relationships made possible by reasoning.</span>
 </div>
-<div id="toc"></div>  
-
-<!--DESCRIPTION SECTION-->
-    <div id="description"><h2 id="desc" class="list">CCL: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
-
-</div>
-   
+<div id="toc"></div>   
 
 <!--CROSSREF SECTION-->
    <div id="crossref"><h2 id="crossreference" class="list">Cross reference for CCL classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
@@ -1086,8 +1078,6 @@ In general, categories are how one groups together various entities.</span>
             <span class="logic">some</span> 
             <a href="#Category" title="http://purl.org/net/CCL#Category">Category</a>
             <sup class="type-c" title="class">c</sup>)</dd>
-         <dt>has super-classes</dt>
-         <dd/>
          <dt>is in domain of</dt>
          <dd>
             <a href="#isMembershipRuleOf" title="http://purl.org/net/CCL#isMembershipRuleOf">Is Membership Rule Of</a>
@@ -1507,9 +1497,6 @@ The difference between a CollectiveAgent and an Organization is that a Descripti
       <div class="comment">
          <span class="markdown">A Concept is a SocialObject, and isDefinedIn some Description; once defined, a Concept can be used in other Description(s). If a Concept isDefinedIn exactly one Description, see the LocalConcept class.
 The classifies relation relates Concept(s) to Entity(s) at some TimeInterval</span>
-      </div>
-      <div class="comment">
-         <span class="markdown">A concept is an abstract representation of a thing as it is understood.</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -1949,7 +1936,6 @@ E.g. a physical book has a configuration provided by the part-whole schema that 
          <dd>
             <a href="#CulturalArtefact" title="http://purl.org/net/CCL#CulturalArtefact">Cultural Artefact</a>
             <sup class="type-c" title="class">c</sup>, <a href="#CulturalExemplar" title="http://purl.org/net/CCL#CulturalExemplar">Cultural Exemplar</a>
-            <sup class="type-c" title="class">c</sup>, <a href="#CulturalSymbol" title="http://purl.org/net/CCL#CulturalSymbol">Cultural Symbol</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
          <dt>is in domain of</dt>
@@ -2097,7 +2083,7 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                title="http://www.w3.org/2000/01/rdf-schema#Literal">literal</a>)</dd>
          <dt>has super-classes</dt>
          <dd>
-            <a href="#CulturalEntity" title="http://purl.org/net/CCL#CulturalEntity">Cultural Entity</a>
+            <a href="#MythologicalSymbol" title="http://purl.org/net/CCL#MythologicalSymbol">Mythological Symbol</a>
             <sup class="type-c" title="class">c</sup>, <a href="#http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"
                title="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson">Social Person</a>
             <sup class="type-c" title="class">c</sup>
@@ -2571,8 +2557,6 @@ In this ontology, a domain doesn't have a significance by itself. It may however
          </dd>
       </dl>
       <dl class="description">
-         <dt>has super-classes</dt>
-         <dd/>
          <dt>has sub-classes</dt>
          <dd>
             <a href="#http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Abstract"
@@ -2974,7 +2958,7 @@ The second notion is social, localized in space-time ('social semantics'), and c
       <p>
          <strong>IRI:</strong> http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal</p>
       <div class="comment">
-         <span class="markdown">From DOLCE: The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it</span>
+         <span class="markdown">The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it</span>
       </div>
       <div class="comment">
          <span class="markdown">The target state/goal to be achieved by conforming to a certain rule or manipulating variables such as behaviour.</span>
@@ -3545,6 +3529,11 @@ It is different from a Plan, because plans could be carried out in order to foll
             <a href="#CulturalSymbol" title="http://purl.org/net/CCL#CulturalSymbol">Cultural Symbol</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#CulturalSymbol" title="http://purl.org/net/CCL#CulturalSymbol">Cultural Symbol</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
       </dl>
    </div>
    <div class="entity" id="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Narrative">
@@ -4042,7 +4031,7 @@ A PhysicalAgent is a substrate for (actsFor) a Social Agent</span>
       <p>
          <strong>IRI:</strong> http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact</p>
       <div class="comment">
-         <span class="markdown">(DOLCE) - Any PhysicalObject that isDescribedBy a Plan .
+         <span class="markdown">Any PhysicalObject that isDescribedBy a Plan .
 This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
 FunctionalSubstance(s) are included here as well.
 Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corporations, communities, etc. can be modelled as social objects (see SocialObject), which are all 'artifactual' in the weak sense assumed here.</span>
@@ -4145,9 +4134,6 @@ Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corp
       </h3>
       <p>
          <strong>IRI:</strong> http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject</p>
-      <div class="comment">
-         <span class="markdown">Any Object that has a proper space region. The prototypical physical object has also an associated mass, but the nature of its mass can greatly vary based on the epistemological status of the object (scientifically measured, subjectively possible, imaginary).</span>
-      </div>
       <div class="comment">
          <span class="markdown">Any Object that has a proper space region. The prototypical physical object has also an associated mass, but the nature of its mass can greatly vary based on the epistemological status of the object (scientifically measured, subjectively possible, imaginary).</span>
       </div>
@@ -5164,9 +5150,9 @@ If used in a transformation pattern for n-ary relations, the designer should tak
       <p>
          <strong>IRI:</strong> http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject</p>
       <div class="comment">
-         <span class="markdown">(DOLCE) - Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
-In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing existing entities (Situation), for collecting existing entities (Collection), or for describing existing entities (Description, Concept).
-Being dependent on communication, all social objects need to be expressed by some information object (information object are self-expressing).</span>
+         <span class="markdown">Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
+In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing or intepreting existing entities (Description, Concept), or for collecting existing entities (Collection).
+Being dependent on communication, all social objects need to be expressed by some information object (information objects are self-expressing).</span>
       </div>
       <dl class="definedBy">
          <dt>Is defined by</dt>
@@ -22669,15 +22655,6 @@ essential to crop yield and food supply""@en</span>
 <sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>
-</div>
-    
-
-<!--REFERENCES SECTION-->
-  <div id="references">
-<h2 id="ref" class="list">References <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
-<span class="markdown">
-Add your references here. It is recommended to have them as a list.</span>
-
 </div>
 <div id="acknowledgments">
 <h2 id="ack" class="list">Acknowledgments <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>

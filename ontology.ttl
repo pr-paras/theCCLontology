@@ -3426,10 +3426,6 @@ Ordering on subparameters can be created by using or specializing the object pro
                                                             [ rdf:type owl:Restriction ;
                                                               owl:onProperty :hasDescription ;
                                                               owl:someValuesFrom rdfs:Literal
-                                                            ] ,
-                                                            [ rdf:type owl:Restriction ;
-                                                              owl:onProperty :hasName ;
-                                                              owl:allValuesFrom rdfs:Literal
                                                             ] ;
                                             rdfs:label "Linguistic System"@en ;
                                             <http://www.w3.org/2004/02/skos/core#definition> "dcterms:Description \"Written, spoken, sign, and computer languages are linguistic systems.\""@en .
@@ -3454,52 +3450,8 @@ Ordering on subparameters can be created by using or specializing the object pro
 :AtomicMetaphor rdf:type owl:Class ;
                 rdfs:subClassOf :Metaphor ,
                                 [ rdf:type owl:Restriction ;
-                                  owl:onProperty :containsMetonym ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :containsSubmetaphor ;
-                                  owl:allValuesFrom :Metaphor
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedCategory ;
-                                  owl:allValuesFrom :Category
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedMetaphor ;
-                                  owl:allValuesFrom :Metaphor
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedPhysicalObject ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasContext ;
-                                  owl:allValuesFrom :Context
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasPreConceptualization ;
-                                  owl:allValuesFrom :CollectiveCognitionStructure
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :isAMetaphorEncodedIn ;
-                                  owl:allValuesFrom :Schema
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :makesReferenceToPhysicalObject ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
                                   owl:onProperty :baseRelationContainsBelief ;
                                   owl:someValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasGeneralConnotation ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasIntendedMeaning ;
-                                  owl:allValuesFrom rdfs:Literal
                                 ] ;
                 rdfs:label "Atomic Metaphor"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "This functions as sort of the atomic metaphor i.e. the simplest metaphors created using foundational schemas and categories.e.g. Feelings in terms of temperature, time as a moving thing" .
@@ -3507,39 +3459,7 @@ Ordering on subparameters can be created by using or specializing the object pro
 
 ###  http://purl.org/net/CCL#AtomicSchema
 :AtomicSchema rdf:type owl:Class ;
-              rdfs:subClassOf :Schema ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasAssociatedSchema ;
-                                owl:allValuesFrom :Schema
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :containsIdeaInSchema ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :containsIdeaInTheme ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasAssociatedLinguisticExpression ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasDescription ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasName ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasRelationshipBetweenThemeEntities ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasTheme ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ;
+              rdfs:subClassOf :Schema ;
               rdfs:label "Atomic Schema"@en ;
               <http://www.w3.org/2004/02/skos/core#definition> "A basic type of collective cognition structure which encodes situations, rules, norms, behaviours etc."@en .
 
@@ -3554,34 +3474,6 @@ Ordering on subparameters can be created by using or specializing the object pro
                            [ rdf:type owl:Restriction ;
                              owl:onProperty :hasContext ;
                              owl:someValuesFrom :Context
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasAssociatedAction ;
-                             owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action>
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasAssociatedRule ;
-                             owl:allValuesFrom :Rule
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasIntendedOutcome ;
-                             owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal>
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasBehaviourQuality ;
-                             owl:allValuesFrom rdfs:Literal
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasDescription ;
-                             owl:allValuesFrom rdfs:Literal
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasExpectedComponent ;
-                             owl:allValuesFrom rdfs:Literal
-                           ] ,
-                           [ rdf:type owl:Restriction ;
-                             owl:onProperty :hasPerceivedComponent ;
-                             owl:allValuesFrom rdfs:Literal
                            ] ;
            rdfs:label "Behaviour"@en ;
            <http://www.w3.org/2004/02/skos/core#definition> "Actions of agents within a situation/condition/circumstance"@en .
@@ -3619,11 +3511,7 @@ Ordering on subparameters can be created by using or specializing the object pro
                                                    ) ;
                                 rdf:type owl:Class
                               ] ;
-          rdfs:subClassOf :CollectiveCognitionStructure ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasAssociatedPhysicalObject ;
-                            owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                          ] ;
+          rdfs:subClassOf :CollectiveCognitionStructure ;
           rdfs:label "Category"@en ;
           <http://www.w3.org/2004/02/skos/core#definition> """A set of classification criteria to classify entities/situations and other structures encoded as a mental structure.
 
@@ -3640,10 +3528,6 @@ In general, categories are how one groups together various entities."""@en .
                                                                  ) ;
                                               rdf:type owl:Class
                                             ] ;
-                        rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                          owl:onProperty :membershipRuleHasWeightage ;
-                                          owl:allValuesFrom xsd:float
-                                        ] ;
                         rdfs:label "Category Membership Rule"@en ;
                         <http://www.w3.org/2004/02/skos/core#definition> "A rule deciding membership in some set/category"@en .
 
@@ -3657,35 +3541,7 @@ In general, categories are how one groups together various entities."""@en .
 
 ###  http://purl.org/net/CCL#CognitiveCategory
 :CognitiveCategory rdf:type owl:Class ;
-                   rdfs:subClassOf :Category ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasAssociatedCategory ;
-                                     owl:allValuesFrom :Category
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasAssociatedSchema ;
-                                     owl:allValuesFrom :Schema
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasSubCategory ;
-                                     owl:allValuesFrom :Category
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :isACategoryEncodedIn ;
-                                     owl:allValuesFrom :Schema
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasAssociatedLinguisticExpression ;
-                                     owl:allValuesFrom rdfs:Literal
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasDescription ;
-                                     owl:allValuesFrom rdfs:Literal
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasName ;
-                                     owl:allValuesFrom rdfs:Literal
-                                   ] ;
+                   rdfs:subClassOf :Category ;
                    rdfs:label "Atomic Category"@en ;
                    <http://www.w3.org/2004/02/skos/core#definition> "A set of classification criteria to classify entities/situations and other structures encoded as a mental structure"@en .
 
@@ -3696,10 +3552,6 @@ In general, categories are how one groups together various entities."""@en .
                                               [ rdf:type owl:Restriction ;
                                                 owl:onProperty :hasCultureIdentifier ;
                                                 owl:someValuesFrom :CultureIdentifier
-                                              ] ,
-                                              [ rdf:type owl:Restriction ;
-                                                owl:onProperty :hasContext ;
-                                                owl:allValuesFrom :Context
                                               ] ;
                               rdfs:label "Collective Cognition Structure"@en ;
                               <http://www.w3.org/2004/02/skos/core#definition> "The conceptualizations developed by a cultural community. This is a cognitive structure, arising at the cultural (group) level."@en .
@@ -3707,39 +3559,7 @@ In general, categories are how one groups together various entities."""@en .
 
 ###  http://purl.org/net/CCL#ComplexCategory
 :ComplexCategory rdf:type owl:Class ;
-                 rdfs:subClassOf :Category ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedCategory ;
-                                   owl:allValuesFrom :Category
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedSchema ;
-                                   owl:allValuesFrom :Schema
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasImmediateCulturalContext ;
-                                   owl:allValuesFrom :Context
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasSubCategory ;
-                                   owl:allValuesFrom :Category
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :isACategoryEncodedIn ;
-                                   owl:allValuesFrom :Schema
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedLinguisticExpression ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasDescription ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasName ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ;
+                 rdfs:subClassOf :Category ;
                  rdfs:label "Complex Category"@en ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A set of classification criteria to classify entities/situations and other structures encoded as a mental structure"@en .
 
@@ -3750,90 +3570,6 @@ In general, categories are how one groups together various entities."""@en .
                                  [ rdf:type owl:Restriction ;
                                    owl:onProperty :hasContext ;
                                    owl:someValuesFrom :Context
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :containsMetonym ;
-                                   owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :containsSubmetaphor ;
-                                   owl:allValuesFrom :Metaphor
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedCategory ;
-                                   owl:allValuesFrom :Category
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedCulturalAgreementStructure ;
-                                   owl:allValuesFrom :CulturalAgreementStructure
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedMetaphor ;
-                                   owl:allValuesFrom :Metaphor
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedPhysicalObject ;
-                                   owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasImmediateCulturalContext ;
-                                   owl:allValuesFrom :Context
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasPreConceptualization ;
-                                   owl:allValuesFrom :CollectiveCognitionStructure
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasRelevanceInTimePeriod ;
-                                   owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval>
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :isAMetaphorEncodedIn ;
-                                   owl:allValuesFrom :Schema
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :makesReferenceToPhysicalObject ;
-                                   owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :baseRelationContainsBelief ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasAssociatedLinguisticExpression ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasCauseOfOrigination ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasCulturalRelevanceWeight ;
-                                   owl:allValuesFrom xsd:float
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasGeneralConnotation ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasHistoricalSignificance ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasIntendedMeaning ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasOriginOfExpressionUsed ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasOriginOfIntendedMeaning ;
-                                   owl:allValuesFrom rdfs:Literal
-                                 ] ,
-                                 [ rdf:type owl:Restriction ;
-                                   owl:onProperty :hasUsageFrequency ;
-                                   owl:allValuesFrom rdfs:Literal
                                  ] ;
                  rdfs:label "Complex Metaphor"@en ;
                  <http://www.w3.org/2004/02/skos/core#definition> "A metaphor within the culture with distinctly cultural components such as the domain used within the expression or the expression itself such as Death as a journey to Heaven"@en .
@@ -3841,51 +3577,7 @@ In general, categories are how one groups together various entities."""@en .
 
 ###  http://purl.org/net/CCL#ComplexSchema
 :ComplexSchema rdf:type owl:Class ;
-               rdfs:subClassOf :Schema ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :encodesSchema ;
-                                 owl:allValuesFrom :Schema
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasAssociatedSchema ;
-                                 owl:allValuesFrom :Schema
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasImmediateCulturalContext ;
-                                 owl:allValuesFrom :Context
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :containsIdeaInSchema ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :containsIdeaInTheme ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasAssociatedLinguisticExpression ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasDescription ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasName ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasOrigin ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasRelationshipBetweenThemeEntities ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasTheme ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ;
+               rdfs:subClassOf :Schema ;
                rdfs:label "Complex Schema"@en ;
                <http://www.w3.org/2004/02/skos/core#definition> "Collection of various schemas, categories and associated metaphors"@en .
 
@@ -3905,19 +3597,7 @@ In general, categories are how one groups together various entities."""@en .
                                                                 )
                                                   ]
                              ] ;
-         rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :hasCultureIdentifier ;
-                           owl:allValuesFrom :CultureIdentifier
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :hasCurrentSocialRelevance ;
-                           owl:allValuesFrom rdfs:Literal
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :isSummarizedAs ;
-                           owl:allValuesFrom rdfs:Literal
-                         ] ;
+         rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> ;
          rdfs:label "Context"@en ;
          <http://www.w3.org/2004/02/skos/core#definition> "An encoded frame of reference for understanding situations/behaviour/actions/language. This can be current or prior context. Prior context is context of which one has knowledge through experience or learning or simply by being exposed to it sometime in the past."@en .
 
@@ -3941,94 +3621,14 @@ In general, categories are how one groups together various entities."""@en .
 
 ###  http://purl.org/net/CCL#CulturalArtefact
 :CulturalArtefact rdf:type owl:Class ;
-                  rdfs:subClassOf :CulturalEntity ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexCategory ;
-                                    owl:allValuesFrom :ComplexCategory
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexMetaphor ;
-                                    owl:allValuesFrom :ComplexMetaphor
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexSchema ;
-                                    owl:allValuesFrom :ComplexSchema
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedCulturalValue ;
-                                    owl:allValuesFrom :CulturalValue
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedPhysicalObject ;
-                                    owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedSymbol ;
-                                    owl:allValuesFrom :CulturalSymbol
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasContext ;
-                                    owl:allValuesFrom :Context
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasSignificanceInTimePeriod ;
-                                    owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval>
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasCurrentSignificance ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasCurrentSignificanceWeight ;
-                                    owl:allValuesFrom xsd:float
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasDescription ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasHistoricalSignificance ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasHistoricalSignificanceWeight ;
-                                    owl:allValuesFrom xsd:float
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasName ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasQuality ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :isOfArtefactCategory ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ;
+                  rdfs:subClassOf :CulturalEntity ;
                   rdfs:label "Cultural Artefact"@en ;
                   <http://www.w3.org/2004/02/skos/core#definition> "A cultural artefact is an artefact which is produced and mediated by cultural agents i.e. it is a product of culture."@en .
 
 
 ###  http://purl.org/net/CCL#CulturalBelief
 :CulturalBelief rdf:type owl:Class ;
-                rdfs:subClassOf :CulturalAgreementStructure ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedCulturalValue ;
-                                  owl:allValuesFrom :CulturalValue
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasDescription ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasOrigin ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :isSummarizedAs ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ;
+                rdfs:subClassOf :CulturalAgreementStructure ;
                 rdfs:label "Cultural Belief"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A belief in relation to religion/philosophy/social rules and behaviour, for insance, held by the cultural community"@en .
 
@@ -4070,50 +3670,6 @@ In general, categories are how one groups together various entities."""@en .
                                   [ rdf:type owl:Restriction ;
                                     owl:onProperty :hasAssociatedCulturalValue ;
                                     owl:someValuesFrom :CulturalValue
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexCategory ;
-                                    owl:allValuesFrom :ComplexCategory
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexMetaphor ;
-                                    owl:allValuesFrom :ComplexMetaphor
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedComplexSchema ;
-                                    owl:allValuesFrom :ComplexSchema
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasAssociatedPhysicalObject ;
-                                    owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasContext ;
-                                    owl:allValuesFrom :Context
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasSignificanceInTimePeriod ;
-                                    owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval>
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasCurrentSignificance ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasDescription ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasExemplarName ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasHistoricalSignificance ;
-                                    owl:allValuesFrom rdfs:Literal
-                                  ] ,
-                                  [ rdf:type owl:Restriction ;
-                                    owl:onProperty :hasQuality ;
-                                    owl:allValuesFrom rdfs:Literal
                                   ] ;
                   rdfs:label "Cultural Exemplar"@en ;
                   <http://www.w3.org/2004/02/skos/core#definition> "An exemplar is of great significance  and is somehow distinctly representative of the culture both within and outside it. It is usually  the abstract idea of an entity usually a person displaying certain characteristics, may or may not be well-known persons. In case of an abstract idea of a person, the entity should accordingly be assigned as an abstract one."@en .
@@ -4149,19 +3705,7 @@ In general, categories are how one groups together various entities."""@en .
                                     rdf:type owl:Class
                                   ] ;
               rdfs:subClassOf :CulturalAgreementStructure ,
-                              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm> ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasAssociatedBehaviour ;
-                                owl:allValuesFrom :Behaviour
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasAssociatedRule ;
-                                owl:allValuesFrom :Rule
-                              ] ,
-                              [ rdf:type owl:Restriction ;
-                                owl:onProperty :hasDescription ;
-                                owl:allValuesFrom rdfs:Literal
-                              ] ;
+                              <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Norm> ;
               rdfs:label "Cultural Norm"@en ;
               <http://www.w3.org/2004/02/skos/core#definition> """Cultural norms are share, agreedupon beliefs and practices shared by the cultural community. 
 
@@ -4178,67 +3722,11 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                                                          ) ;
                                       rdf:type owl:Class
                                     ] ;
-                rdfs:subClassOf :CulturalEntity ,
+                rdfs:subClassOf :MythologicalSymbol ,
                                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty :hasAssociatedCulturalValue ;
                                   owl:someValuesFrom :CulturalValue
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedComplexCategory ;
-                                  owl:allValuesFrom :ComplexCategory
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedComplexMetaphor ;
-                                  owl:allValuesFrom :ComplexMetaphor
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedComplexSchema ;
-                                  owl:allValuesFrom :ComplexSchema
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedExemplar ;
-                                  owl:allValuesFrom :CulturalExemplar
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedPhysicalObject ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasContext ;
-                                  owl:allValuesFrom :Context
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasSignificanceInTimePeriod ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasCurrentSignificance ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasCurrentSignificanceWeight ;
-                                  owl:allValuesFrom xsd:float
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasDescription ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasHistoricalSignificance ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasHistoricalSignificanceWeight ;
-                                  owl:allValuesFrom xsd:float
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasName ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasQuality ;
-                                  owl:allValuesFrom rdfs:Literal
                                 ] ;
                 rdfs:label "Cultural Symbol"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A cultural symbol could be any sort of entity that has some symbolism within the culture."@en .
@@ -4266,15 +3754,7 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                                                         ) ;
                                      rdf:type owl:Class
                                    ] ;
-               rdfs:subClassOf :CulturalAgreementStructure ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :hasDescription ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ,
-                               [ rdf:type owl:Restriction ;
-                                 owl:onProperty :isSummarizedAs ;
-                                 owl:allValuesFrom rdfs:Literal
-                               ] ;
+               rdfs:subClassOf :CulturalAgreementStructure ;
                rdfs:label "Cultural Value"@en ;
                <http://www.w3.org/2004/02/skos/core#definition> """Values are core ideas which stem from the beliefs underlying them and manifest within the practices of a cultural group.
 
@@ -4302,18 +3782,6 @@ The generic Description field is mandatory for this class since it will be used 
                                    [ rdf:type owl:Restriction ;
                                      owl:onProperty :hasAssociatedSocialObject ;
                                      owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CollectiveAgent>
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasAssociatedCulturalAgreementStructure ;
-                                     owl:allValuesFrom :CulturalAgreementStructure
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasDescription ;
-                                     owl:allValuesFrom rdfs:Literal
-                                   ] ,
-                                   [ rdf:type owl:Restriction ;
-                                     owl:onProperty :hasName ;
-                                     owl:allValuesFrom rdfs:Literal
                                    ] ;
                    rdfs:label "Culture Identifier"@en ;
                    <http://www.w3.org/2004/02/skos/core#definition> """This class records the details of the society and culture for which the Cultural Linguistic framework is being modeled. Place is not a mandatory property since there are nomadic cultures in the world. However, the regions involved with their movement can still be coded. This is an information calss. 
@@ -4323,54 +3791,14 @@ The class name takes inspiration from the term 'File descriptor' in computer Sci
 
 ###  http://purl.org/net/CCL#Dialect
 :Dialect rdf:type owl:Class ;
-         rdfs:subClassOf :Language ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :hasAssociatedSocialObject ;
-                           owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#CollectiveAgent>
-                         ] ,
-                         [ rdf:type owl:Restriction ;
-                           owl:onProperty :isAssociatedWithPlace ;
-                           owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E53_Place>
-                         ] ;
+         rdfs:subClassOf :Language ;
          rdfs:label "Dialect"@en ;
          <http://www.w3.org/2004/02/skos/core#definition> "A flavour of a language which may be associated with some group or subset of the cultural community. There may or may not be a region(place) associated with it."@en .
 
 
 ###  http://purl.org/net/CCL#Domain
 :Domain rdf:type owl:Class ;
-        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject> ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasAssociatedEvent ;
-                          owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasAssociatedPhysicalObject ;
-                          owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasContext ;
-                          owl:allValuesFrom :Context
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasCultureIdentifier ;
-                          owl:allValuesFrom :CultureIdentifier
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasDescription ;
-                          owl:allValuesFrom rdfs:Literal
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasName ;
-                          owl:allValuesFrom rdfs:Literal
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasSignificance ;
-                          owl:allValuesFrom rdfs:Literal
-                        ] ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasSignificanceWeight ;
-                          owl:allValuesFrom xsd:float
-                        ] ;
+        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject> ;
         rdfs:label "Domain"@en ;
         <http://www.w3.org/2004/02/skos/core#definition> """A domain is a constrained subset of a larger body of knowledge. A domain can contain its own sub-domains and sub-domains are domains in their own right. When different aspects of a domain are seleted for encoding, they should be coded in the form of sub-domain individuals. 
 
@@ -4401,11 +3829,7 @@ In this ontology, a domain doesn't have a significance by itself. It may however
                                                    ) ;
                                 rdf:type owl:Class
                               ] ;
-          rdfs:subClassOf :SocioCulturalStructure ,
-                          [ rdf:type owl:Restriction ;
-                            owl:onProperty :hasName ;
-                            owl:allValuesFrom rdfs:Literal
-                          ] ;
+          rdfs:subClassOf :SocioCulturalStructure ;
           rdfs:label "Language"@en ;
           <http://www.w3.org/2004/02/skos/core#definition> "A system of communication and shared expression and interpretation using sounds, symbols and expressions"@en .
 
@@ -4527,11 +3951,7 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology."""@en 
                                                ) ;
                             rdf:type owl:Class
                           ] ;
-      rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> ,
-                      [ rdf:type owl:Restriction ;
-                        owl:onProperty :isOfAssertionType ;
-                        owl:allValuesFrom rdfs:Literal
-                      ] ;
+      rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> ;
       rdfs:label "Rule"@en ;
       <http://www.w3.org/2004/02/skos/core#definition> "A combination of initial conditions which when satisfied render some target state valid"@en .
 
@@ -4625,30 +4045,14 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology."""@en 
                                                          ) ;
                                       rdf:type owl:Class
                                     ] ;
-                rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description> ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasAssociatedBehaviour ;
-                                  owl:allValuesFrom :Behaviour
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasIntendedOutcome ;
-                                  owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Goal>
-                                ] ,
-                                [ rdf:type owl:Restriction ;
-                                  owl:onProperty :hasDescription ;
-                                  owl:allValuesFrom rdfs:Literal
-                                ] ;
+                rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description> ;
                 rdfs:label "Social Practice"@en ;
                 <http://www.w3.org/2004/02/skos/core#definition> "A practice which even if not unique, is distinct to the culture. It has some attached cultural value to it. A social practice may be even to do 'nothing' in some given context."@en .
 
 
 ###  http://purl.org/net/CCL#SocioCulturalStructure
 :SocioCulturalStructure rdf:type owl:Class ;
-                        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject> ,
-                                        [ rdf:type owl:Restriction ;
-                                          owl:onProperty :hasContext ;
-                                          owl:allValuesFrom :Context
-                                        ] ;
+                        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject> ;
                         rdfs:label "Socio Cultural Structure"@en ;
                         <http://www.w3.org/2004/02/skos/core#definition> "Any entity arising in and out of cultural activity"@en .
 
@@ -4662,23 +4066,7 @@ These are classified as non-physical objects in the DOLCE(Full) Ontology."""@en 
 
 ###  http://www.cidoc-crm.org/cidoc-crm/E53_Place
 <http://www.cidoc-crm.org/cidoc-crm/E53_Place> rdf:type owl:Class ;
-                                               rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace> ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P121_overlaps_with> ;
-                                                                 owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E53_Place>
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P122_borders_with> ;
-                                                                 owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E53_Place>
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P89_falls_within> ;
-                                                                 owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E53_Place>
-                                                               ] ,
-                                                               [ rdf:type owl:Restriction ;
-                                                                 owl:onProperty <http://www.cidoc-crm.org/cidoc-crm/P89i_contains> ;
-                                                                 owl:allValuesFrom <http://www.cidoc-crm.org/cidoc-crm/E53_Place>
-                                                               ] ;
+                                               rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace> ;
                                                rdfs:label "Place"@en ;
                                                rdfs:seeAlso """(From CRM) - This class comprises extents in space, in particular on the surface of the earth, in the pure sense of physics: independent from temporal phenomena and matter. 
 The instances of E53 Place are usually determined by reference to the position of “immobile” objects such as buildings, cities, mountains, rivers, or dedicated geodetic marks. A Place can be determined by combining a frame of reference and a location with respect to this frame. It may be identified by one or more instances of E44 Place Appellation.
@@ -4708,20 +4096,8 @@ Any object can serve as a frame of reference for E53 Place determination. The mo
                                                                                  owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent>
                                                                                ] ,
                                                                                [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty :hasContext ;
-                                                                                 owl:allValuesFrom :Context
-                                                                               ] ,
-                                                                               [ rdf:type owl:Restriction ;
                                                                                  owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#executesTask> ;
                                                                                  owl:minCardinality "1"^^xsd:nonNegativeInteger
-                                                                               ] ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty :hasActionQuality ;
-                                                                                 owl:allValuesFrom rdfs:Literal
-                                                                               ] ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty :hasDescription ;
-                                                                                 owl:allValuesFrom rdfs:Literal
                                                                                ] ;
                                                                rdfs:comment "An Event with at least one Agent that isParticipantIn it, and that executes a Task that typically isDefinedIn a Plan, Workflow, Project, etc." ;
                                                                rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
@@ -4869,8 +4245,7 @@ The classifies relation relates Concept(s) to Entity(s) at some TimeInterval""" 
                                                                 rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
                                                                 rdfs:label "Concept"@en ,
                                                                            "Concetto"@it ;
-                                                                rdfs:seeAlso "https://www.w3.org/TR/skos-reference/#concepts"@en ;
-                                                                <http://www.w3.org/2004/02/skos/core#definition> "A concept is an abstract representation of a thing as it is understood."@en .
+                                                                rdfs:seeAlso "https://www.w3.org/TR/skos-reference/#concepts"@en .
 
 
 ###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Configuration
@@ -4950,14 +4325,6 @@ While designs typically describe entities to be constructed, they can also be us
 
 ###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> rdf:type owl:Class ;
-                                                               rdfs:subClassOf [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty :hasDescription ;
-                                                                                 owl:allValuesFrom rdfs:Literal
-                                                                               ] ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty :hasEntityName ;
-                                                                                 owl:allValuesFrom rdfs:Literal
-                                                                               ] ;
                                                                rdfs:comment "Anything: real, possible, or imaginary, which some modeller wants to talk about for some purpose." ;
                                                                rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
                                                                rdfs:label "Entity"@en ,
@@ -4984,10 +4351,6 @@ While designs typically describe entities to be constructed, they can also be us
                                                                               [ rdf:type owl:Restriction ;
                                                                                 owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart> ;
                                                                                 owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event>
-                                                                              ] ,
-                                                                              [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty :hasRecurringSchedule ;
-                                                                                owl:allValuesFrom rdfs:Literal
                                                                               ] ;
                                                               owl:disjointWith <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object> ,
                                                                                <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Quality> ;
@@ -5128,29 +4491,8 @@ The second notion is social, localized in space-time ('social semantics'), and c
                                                                                                       ) ;
                                                                                    rdf:type owl:Class
                                                                                  ] ;
-                                                             rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description> ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty :hasAssociatedBehaviour ;
-                                                                               owl:allValuesFrom :Behaviour
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty :hasAssociatedCulturalAgreementStructure ;
-                                                                               owl:allValuesFrom :CulturalAgreementStructure
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty :hasAssociatedRule ;
-                                                                               owl:allValuesFrom :Rule
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty :hasDescription ;
-                                                                               owl:allValuesFrom rdfs:Literal
-                                                                             ] ,
-                                                                             [ rdf:type owl:Restriction ;
-                                                                               owl:onProperty :isOfOutcomeType ;
-                                                                               owl:allValuesFrom rdfs:Literal
-                                                                             ] ;
-                                                             rdfs:comment "From DOLCE: The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it"@en ,
-                                                                          "The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it" ;
+                                                             rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Description> ;
+                                                             rdfs:comment "The Description of a Situation that is desired by an Agent, and usually associated to a Plan that describes how to actually achieve it" ;
                                                              rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
                                                              rdfs:label "Goal"@en ,
                                                                         "Goal/Intended Outcome"@en ,
@@ -5332,11 +4674,7 @@ It cannot be defined by means of an equivalence axiom, because it'd require the 
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organism> rdf:type owl:Class ;
                                                                  rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ,
                                                                                  <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#BiologicalObject> ,
-                                                                                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent> ,
-                                                                                 [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty <http://xmlns.com/foaf/0.1/gender> ;
-                                                                                   owl:allValuesFrom rdfs:Literal
-                                                                                 ] ;
+                                                                                 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent> ;
                                                                  rdfs:comment "(DOLCE) - A physical objects with biological characteristics, typically that organisms can self-reproduce."@en ,
                                                                               "A physical objects with biological characteristics, typically that organisms can self-reproduce." ;
                                                                  rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
@@ -5408,11 +4746,7 @@ An occurrence of a pattern is an 'observable', or detected Situation""" ;
 
 ###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Person> rdf:type owl:Class ;
-                                                               rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ,
-                                                                               [ rdf:type owl:Restriction ;
-                                                                                 owl:onProperty <http://xmlns.com/foaf/0.1/gender> ;
-                                                                                 owl:allValuesFrom rdfs:Literal
-                                                                               ] ;
+                                                               rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> ;
                                                                rdfs:comment "Persons in commonsense intuition, which does not apparently distinguish between either natural or social persons." ;
                                                                rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
                                                                rdfs:label "Person"@en ,
@@ -5446,11 +4780,7 @@ A PhysicalAgent is a substrate for (actsFor) a Social Agent""" ;
                                                                                            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isDescribedBy> ;
                                                                                            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan>
                                                                                          ] ;
-                                                                         rdfs:comment """(DOLCE) - Any PhysicalObject that isDescribedBy a Plan .
-This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
-FunctionalSubstance(s) are included here as well.
-Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corporations, communities, etc. can be modelled as social objects (see SocialObject), which are all 'artifactual' in the weak sense assumed here."""@en ,
-                                                                                      """Any PhysicalObject that isDescribedBy a Plan .
+                                                                         rdfs:comment """Any PhysicalObject that isDescribedBy a Plan .
 This axiomatization is weak, but allows to talk of artifacts in a very general sense, i.e. including recycled objects, objects with an intentional functional change, natural objects that are given a certain function, even though they are not modified or structurally designed, etc. PhysicalArtifact(s) are not considered disjoint from PhysicalBody(s), in order to allow a dual classification when needed. E.g.,
 FunctionalSubstance(s) are included here as well.
 Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corporations, communities, etc. can be modelled as social objects (see SocialObject), which are all 'artifactual' in the weak sense assumed here.""" ;
@@ -5487,10 +4817,6 @@ Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corp
 <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject> rdf:type owl:Class ;
                                                                        rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object> ,
                                                                                        [ rdf:type owl:Restriction ;
-                                                                                         owl:onProperty :hasCultureIdentifier ;
-                                                                                         owl:allValuesFrom :CultureIdentifier
-                                                                                       ] ,
-                                                                                       [ rdf:type owl:Restriction ;
                                                                                          owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart> ;
                                                                                          owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject>
                                                                                        ] ;
@@ -5499,8 +4825,7 @@ Immaterial (non-physical) artifacts (e.g. texts, ideas, cultural movements, corp
                                                                        rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
                                                                        rdfs:label "Oggetto fisico"@it ,
                                                                                   "Physical Object"@en ,
-                                                                                  "Physical object"@en ;
-                                                                       <http://www.w3.org/2004/02/skos/core#definition> "Any Object that has a proper space region. The prototypical physical object has also an associated mass, but the nature of its mass can greatly vary based on the epistemological status of the object (scientifically measured, subjectively possible, imaginary)."@en .
+                                                                                  "Physical object"@en .
 
 
 ###  http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalPlace
@@ -5735,10 +5060,7 @@ If used in a transformation pattern for n-ary relations, the designer should tak
                                                                                        owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart> ;
                                                                                        owl:allValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialObject>
                                                                                      ] ;
-                                                                     rdfs:comment """(DOLCE) - Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
-In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing existing entities (Situation), for collecting existing entities (Collection), or for describing existing entities (Description, Concept).
-Being dependent on communication, all social objects need to be expressed by some information object (information object are self-expressing)."""@en ,
-                                                                                  """Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
+                                                                     rdfs:comment """Any Object that exists only within some communication Event, in which at least one PhysicalObject participates in. 
 In other words, all objects that have been or are created in the process of social communication: for the sake of communication (InformationObject), for incorporating new individuals (SocialAgent, Place), for contextualizing or intepreting existing entities (Description, Concept), or for collecting existing entities (Collection).
 Being dependent on communication, all social objects need to be expressed by some information object (information objects are self-expressing).""" ;
                                                                      rdfs:isDefinedBy <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl> ;
