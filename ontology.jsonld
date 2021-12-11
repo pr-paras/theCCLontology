@@ -3045,8 +3045,6 @@
     "@value" : "Cultural Symbol"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://purl.org/net/CCL#MythologicalSymbol"
-  }, {
     "@id" : "http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"
   }, {
     "@id" : "_:genid252"

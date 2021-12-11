@@ -5282,7 +5282,6 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.org/net/CCL#MythologicalSymbol"/>
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson"/>
         <rdfs:subClassOf>
             <owl:Restriction>

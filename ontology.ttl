@@ -3722,8 +3722,7 @@ If there is a norm which applies in all contexts, then this can be encoded as ap
                                                          ) ;
                                       rdf:type owl:Class
                                     ] ;
-                rdfs:subClassOf :MythologicalSymbol ,
-                                <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ,
+                rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty :hasAssociatedCulturalValue ;
                                   owl:someValuesFrom :CulturalValue

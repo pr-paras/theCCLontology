@@ -3636,7 +3636,6 @@ _:genid250 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/net/CCL#h
 _:genid250 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 _:genid249 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 _:genid248 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/net/CCL#CulturalSymbol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/CCL#MythologicalSymbol> .
 <http://purl.org/net/CCL#CulturalSymbol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson> .
 <http://purl.org/net/CCL#CulturalSymbol> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid252 .
 _:genid252 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
